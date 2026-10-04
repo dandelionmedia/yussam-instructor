@@ -1,0 +1,983 @@
+{
+  "updated": "2026-10-04",
+  "items": [
+    {
+      "name": "한국남부발전",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "용인 남사도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "안양시립 석수도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "부천 동운정공",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "군포 산본도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "한국자격증협회",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "동국대학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "세종도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "제주 서귀포시 가족센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "평택 비전중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경북보건대학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "세종 종촌중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "화성·오산지역 중등 보건교사",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "충청북도유아교육진흥원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "평택 고덕함박초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "파주 문산초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "사카타코리아",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "평택 민세중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "투그린피오텍",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "청원초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "강남 즐거운도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "넷마루",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경남교육청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "가야지역아동센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "관악문화재단·관악구립도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "분당초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기모바일과학고등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "충청북도교육청·영동유치원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부도서관·파주 삼광중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "조치원 연서중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "조치원 세종중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "충청북도교육청·지웰시티유치원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부도서관·파주 세경고등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부도서관·파주 두일초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부도서관·파주 해솔초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "안양시 드림스타트",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "고려대학교 교육연수원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "성균관대학교 교수학습혁신센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "세종 전의중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부도서관·의정부 호원중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "평택 세교중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부도서관·파주 군내초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "충청북도교육청·죽림유치원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "안성시평생학습관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "천안 성환도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "충청북도교육청·국원유치원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "충청북도교육청·남성유치원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "중앙대학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "안양시평생학습관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "충청북도교육청·오송솔미유치원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "KMA 한국능률협회·KLPGA",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "철원여자고등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "충청북도교육청·청주소로초등학교병설유치원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도연천교육지원청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "천안시청소년수련관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "안산시산업단지근로자복지관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "동국대학교 학생지원팀",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "전북은행 창의융합캠프",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "금천청소년센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기 여주가남교육도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도의회",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "용인문화원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "영주문화관광재단",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "안성시 평생학습관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도교육청 성남도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도 의정부교육도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "꿈나눔과천지역아동센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도 포천도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "인천 중구평생학습관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "성남도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "울산관광 창업아카데미",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "군포시중앙도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "동탄 호연초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "AI미래교육교사연구회",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "안양시 관악장애인복지관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "용인 수지도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부교육지원청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "평택 홍원초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "고양특례시 육아종합지원센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "의정부교육도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "연천 군남초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기과천교육도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "서울 중동초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "시립광진청소년성문화센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "남양주 미금중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "서울 등빛도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "김포 중봉청소년수련관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "갈매도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "가평군 청소년상담복지센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "화성 서연초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기광주교육도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도 기회기자단",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "강동마을미디어지원센터·서울강동구청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "안산미디어도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "광진정보도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "전라남도교육청 목포도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "과천교육도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "환경재단·제주 서호초·한마음초",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "화성상공회의소 소공인복합지원센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "백현중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "광명교육지원청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "화성 왕배푸른숲도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "용인 기흥도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "대전 상상마을학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "대전 탄방초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기콘텐츠진흥원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "광주하남교육지원청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도 양평교육지원청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "금산문화의집",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "양주 백석중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "인천 부평구평생학습관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기성남교육도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "부천 수주도서관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기평생교육학습관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "김포교육지원청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "포천 영북초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "용인시 평생학습관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "용인시 육아종합지원센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "시청자미디어센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "삼전종합사회복지관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "서울 신목중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "대전 월평종합사회복지관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "용인 신갈도시재생",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도 청소년방송",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "대전 상상마을 사회적협동조합",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "성남 학교도서관 사서연구회",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "대전 새미래중학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "강동구립 천호청소년문화의집",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "서울 독산초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "성미가엘종합사회복지관",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "서울 면중초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "초등학생 대상 교육",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "위메프·소상공인시장진흥공단",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "남양주시청",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "에너지버스",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "주식회사 티엘론",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "제네랄어플라이언스·매직쉐프",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "정진하이테크",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "부천 다복부동산 공인중개사무소",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "KT CS 광주광역시",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "마포문화관광협의회",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "공인중개사·행정사 대상",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "디지털튜터 교육",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "헬스장 대상 교육",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도 지식 GSEEK",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "만세극장",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "김요한심리상담센터",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "경기도교육청 꿈의학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "BCPF",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "민들레미디어스쿨",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "동대문문화재단",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "태화기독국제학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "이솔바이올린첼로음악학원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "황미선바이올린학원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "수원 매탄동 바이올린학원",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "몸빼짐 헬스장",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "음악학원·화장품회사·건강 관련 회사",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "소상공인·사장님 대상 교육",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "청소년 UCC 교육",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "인천 사역자미디어스쿨",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "고양 한내초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    },
+    {
+      "name": "용인 토월초등학교",
+      "show": true,
+      "logo": "",
+      "articles": []
+    }
+  ]
+}

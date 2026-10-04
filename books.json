@@ -1,0 +1,40 @@
+{
+  "updated": "2026-10-04",
+  "items": [
+    {
+      "title": "나이해방일지",
+      "date": "2024",
+      "cover": "books/book-1.webp",
+      "url": "https://www.yussamclass.com/32#yac-books",
+      "publisher": ""
+    },
+    {
+      "title": "나만의 가치로 세상을 바꾸는 강사들",
+      "date": "2025",
+      "cover": "books/book-2.webp",
+      "url": "https://www.yussamclass.com/32#yac-books",
+      "publisher": ""
+    },
+    {
+      "title": "인생 2막이 더 빛나는 그들의 이야기",
+      "date": "2025",
+      "cover": "books/book-3.webp",
+      "url": "https://www.yussamclass.com/32#yac-books",
+      "publisher": ""
+    },
+    {
+      "title": "생성형 AI 활용 업무혁신",
+      "date": "2026",
+      "cover": "books/book-4.webp",
+      "url": "https://www.yussamclass.com/32#yac-books",
+      "publisher": ""
+    },
+    {
+      "title": "AI 활용 선거전략 Ⅱ",
+      "date": "2026",
+      "cover": "books/book-5.webp",
+      "url": "https://www.yussamclass.com/32#yac-books",
+      "publisher": ""
+    }
+  ]
+}

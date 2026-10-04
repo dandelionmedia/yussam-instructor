@@ -1,0 +1,16 @@
+{
+  "updated": "2026-10-04",
+  "items": [
+    {
+      "title": "친절한유성쌤 토요라이브스터디",
+      "subtitle": "매주 최신 AI 변화와 콘텐츠마케팅을 함께 연구하고, 직접 실험하며 교육 현장에 적용합니다.",
+      "url": "events/yussam-live-study/",
+      "thumb": "profile-kim-yuseong.jpg",
+      "dateLabel": "매주 토요일 저녁 8시~10시",
+      "org": "AI콘텐츠마케팅연구소 유쌤클래스",
+      "role": "김유성 강사",
+      "visibility": "public",
+      "recurring": true
+    }
+  ]
+}
