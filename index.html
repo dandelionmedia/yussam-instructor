@@ -1080,5 +1080,10 @@ html{scroll-padding-top:calc(var(--header-height,90px) + 16px)}
 })();
 </script>
 <script src="webmcp.js" defer></script>
+<script id="yussam-context-menu-policy">
+document.addEventListener('contextmenu', function(event) {
+  event.preventDefault();
+}, { capture: true });
+</script>
 </body>
 </html>
