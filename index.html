@@ -552,8 +552,8 @@ html{scroll-padding-top:calc(var(--header-height,90px) + 16px)}
 .education-timeline li{min-width:0;border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:18px;background:white;padding:22px}
 .education-timeline b{display:block;color:var(--gold-ink);font-size:1.25rem;margin-bottom:12px;line-height:1.4}
 .education-timeline span{display:block;font-size:1rem;color:var(--text);line-height:1.8;word-break:keep-all;overflow-wrap:anywhere}
-.study-collaboration{border:1px solid var(--line);border-radius:26px;background:var(--light);padding:32px;margin-top:28px}
-.study-intro h3{font-size:clamp(1.5rem,2.8vw,2rem);color:var(--navy);margin:10px 0 14px;line-height:1.5;letter-spacing:-.03em}
+.study-collaboration{margin-top:0;border:1px solid var(--line);border-radius:26px;background:var(--light);padding:32px;margin-top:0}
+.study-intro h2{font-size:clamp(1.5rem,2.8vw,2rem);color:var(--navy);margin:10px 0 14px;line-height:1.5;letter-spacing:-.03em}
 .study-intro p,.study-points p,.study-invitation p{font-size:1rem;line-height:1.85;color:#344054;margin:0}
 .study-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}
 .study-points article{min-width:0;background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}
@@ -564,7 +564,7 @@ html{scroll-padding-top:calc(var(--header-height,90px) + 16px)}
 .study-guide{font-size:.9375rem;font-weight:800;color:var(--blue);text-align:center;min-height:44px;display:flex;align-items:center;justify-content:center;text-decoration:underline}
 @media(max-width:1000px){.study-points{grid-template-columns:1fr}.study-invitation{grid-template-columns:1fr}}
 @media(max-width:700px){.education-timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.study-collaboration{padding:22px 18px}.study-points article{padding:20px}}
-@media(max-width:420px){.education-timeline,.profile-metrics{grid-template-columns:1fr}.education-timeline li{padding:18px}.study-intro h3{font-size:1.5rem}}
+@media(max-width:420px){.education-timeline,.profile-metrics{grid-template-columns:1fr}.education-timeline li{padding:18px}.study-intro h2{font-size:1.5rem}}
 </style>
   <script>
   
@@ -617,14 +617,9 @@ html{scroll-padding-top:calc(var(--header-height,90px) + 16px)}
 
     <section id="events" class="events">
       <div class="container">
-        <div class="section-title">
-          <div class="eyebrow">EVENTS</div>
-          <h2>라이브스터디 안내</h2>
-          <p>최신 AI 변화와 콘텐츠마케팅을 함께 연구하고 직접 실험하며 교육 현장에 연결합니다. 상세 카드에서 스터디 운영 안내를 확인해 주세요.</p>
-        </div>
-        <div class="ev-grid" id="evGrid"></div>
+        
         <div class="study-collaboration">
-          <div class="study-intro"><div class="eyebrow">STUDY TOGETHER</div><h3>함께 배우고 · 함께 연구하고 · 함께 성장합니다</h3><p>친절한유성쌤 토요라이브스터디는 김유성 강사를 중심으로 최신 AI 변화와 콘텐츠마케팅을 연구하고 직접 실험하는 시간입니다. AI 교육을 꾸준히 연구하고 서로의 경험을 나누며 함께 성장하고 싶은 강사님께 열려 있습니다.</p></div>
+          <div class="study-intro"><div class="eyebrow">STUDY TOGETHER</div><h2>함께 배우고 · 함께 연구하고 · 함께 성장합니다</h2><p>친절한유성쌤 토요라이브스터디는 김유성 강사를 중심으로 최신 AI 변화와 콘텐츠마케팅을 연구하고 직접 실험하는 시간입니다. AI 교육을 꾸준히 연구하고 서로의 경험을 나누며 함께 성장하고 싶은 강사님께 열려 있습니다.</p></div>
           <div class="study-points">
             <article><span>01</span><h4>매주 최신 AI 변화 연구</h4><p>최근 AI 이슈와 새로운 도구, 콘텐츠마케팅 트렌드를 함께 살펴보고 실제 교육과 현장에 적용할 방법을 연구합니다.</p></article>
             <article><span>02</span><h4>서로의 연구시간을 나누는 스터디</h4><p>한 사람이 모든 것을 준비하기보다, 함께하는 강사들이 각자의 연구 주제와 현장 경험을 나누며 스터디의 깊이와 폭을 넓혀갑니다.</p></article>
@@ -849,45 +844,7 @@ html{scroll-padding-top:calc(var(--header-height,90px) + 16px)}
     }).catch(() => {});
   })();
   </script>
-  <script>
   
-  (function(){
-    const grid = document.getElementById('evGrid');
-    if(!grid) return;
-    const esc = t => String(t ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const isAdmin = (() => { try { return localStorage.getItem('snb_admin') === '1'; } catch(e){ return false; } })();
-    const today = new Date().toISOString().slice(0,10);
-    loadData('events.json').then(d => {
-      let items = (d.items || []).filter(x => x.url && x.title && !String(x.title).startsWith('['));
-      if(!isAdmin) items = items.filter(x => x.visibility !== 'link');
-      if(!items.length) return;
-      const state = x => {
-        if(x.recurring) return ['on', '매주 진행'];
-        if(x.end && x.end < today) return ['done', '완료'];
-        if(x.start && x.start <= today && (!x.end || x.end >= today)) return ['on', '진행 중'];
-        return ['up', '예정'];
-      };
-
-      const live = items.filter(x => state(x)[0] !== 'done').sort((a,b) => (a.start||'') < (b.start||'') ? -1 : 1);
-      const done = items.filter(x => state(x)[0] === 'done').sort((a,b) => (a.start||'') < (b.start||'') ? 1 : -1);
-      grid.innerHTML = [...live, ...done].map(x => {
-        const [cls, label] = state(x);
-        const thumb = x.thumb ? (/^https?:/.test(x.thumb) ? x.thumb : RAW + x.thumb) : '';
-        const local = x.thumb && !/^https?:/.test(x.thumb) ? x.thumb : '';
-        const img = thumb ? `<img src="${esc(thumb)}" alt="" loading="lazy" width="1200" height="630"${local ? ` onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${esc(local)}'}"` : ''}>` : '';
-        return `<a class="ev-card" href="${esc(x.url)}">
-          <div class="ev-thumb">${img}<span class="ev-badge ${cls}">${label}</span>${x.visibility === 'link' ? '<span class="ev-badge link">링크로만</span>' : ''}</div>
-          <div class="ev-body">
-            <div class="ev-title">${esc(x.title)}</div>
-            ${x.subtitle ? `<div class="ev-sub">${esc(x.subtitle)}</div>` : ''}
-            <div class="ev-meta"><b>${esc(x.dateLabel || x.start || '')}</b>${x.org ? ' · ' + esc(x.org) : ''}${x.role ? `<span class="ev-role">${esc(x.role)}</span>` : ''}</div>
-          </div></a>`;
-      }).join('');
-      document.getElementById('events').hidden = false;
-      const nav = document.getElementById('navEvents'); if(nav) nav.hidden = false;
-    }).catch(() => {});
-  })();
-  </script>
   <script>
   
   (function(){
